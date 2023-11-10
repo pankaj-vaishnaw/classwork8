@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.plus-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.minus-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.subject-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subject {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.hours-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.hours-container button {
+  margin: 0 5px;
+}
